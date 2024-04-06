@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Kuznetsov | About me</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/color.css" />
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
+  </head>
+  <body style="display: block; justify-content: center; align-items: center">
+    <header>
+      <ul class="langWrap">
+        <h6
+          class="language"
+          data-i18n="lang"
+          style="color: var(--gray-light-color)"
+        >
+          Language
+        </h6>
+        <li>
+          <a href="#" onclick="changeLanguage('en')">eng</a>
+          <a href="#" onclick="changeLanguage('ru')">rus</a>
+        </li>
+      </ul>
+      <ul class="Links">
+        <h6 data-i18n="links" style="color: var(--gray-light-color)">Links</h6>
+        <li>
+          <a
+            href="./assets/cv/Ivan Kuznetcov CV.pdf"
+            style="color: var(--white-color)"
+            data-i18n="read_cv"
+            target="_blank"
+            >read cv ↗</a
+          >
+          <a
+            href="index.html"
+            style="color: var(--white-color)"
+            data-i18n="works_me"
+            >works</a
+          >
+        </li>
+      </ul>
+    </header>
+    <div class="wrapper">
+      <div class="content">
+        <div class="main__block__aboutme" style="gap: 60px">
+          <div class="aboutme__block">
+            <sub data-i18n="about-subtitle">About</sub>
+            <h2 data-i18n="about-desc">
+              Highly experienced UX/UI designer with over 7 years of expertise
+              in web and app digital product development, specializing in B2B
+              products and industrial interfaces for various corporate
+              processes, including monitoring and analytics systems,
+              dashboarding systems, e-commerce projects, and HR systems.
+            </h2>
+          </div>
+          <div class="flex-wrap">
+            <div class="flex-row">
+              <div class="div-txts-abtme2">
+                <div class="div-txts-pos">
+                  <div class="position">
+                    <sub class="margin5em" data-i18n="pos-sub">Position</sub>
+                    <h5 data-i18n="pos-desc">UX/UI Design lead</h5>
+                  </div>
+                  <div class="exp">
+                    <sub class="margin5em" data-i18n="exp-sub">Experience</sub>
+                    <h5 data-i18n="exp-desc">7+ years</h5>
+                  </div>
+                </div>
+                <div class="company">
+                  <sub class="margin5em" data-i18n="comp-sub"
+                    >Current company</sub
+                  >
+                  <span>
+                    <img
+                      src="./assets/img/logo_company.png"
+                      width="24px"
+                      height="24px"
+                      alt=""
+                    />
+                    <h5 data-i18n="comp-desc">Severstal Infocom</h5>
+                  </span>
+                </div>
+                <div class="degree">
+                  <sub class="margin5em" data-i18n="deg-sub">Degree</sub>
+                  <h5 data-i18n="deg-desc">Senior UX/UI Designer</h5>
+                </div>
+              </div>
+              <div class="div-txts-contact">
+                <div class="block-email-contact">
+                  <sub class="margin5em">Email</sub>
+                  <a href="mailto:justcreo@gmail.com">justcreo@gmail.com</a>
+                </div>
+                <div class="block-location-contact">
+                  <sub class="margin5em">Location</sub>
+                  <h5 data-i18n="location-abt">Thailand, Pattaya</h5>
+                </div>
+                <div class="block-phone-contact">
+                  <sub class="margin5em">Phone</sub>
+                  <h5>+7 (926) 383 63-25</h5>
+                </div>
+              </div>
+            </div>
+            <div class="img-aboutme"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <a
+          href="https://www.linkedin.com/in/creotype/"
+          class="link"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="mailto:justcreo@gmail.com" class="link" target="_blank"
+          >Email</a
+        >
+        <a href="https://t.me/creotype" class="link" target="_blank"
+          >Telegram</a
+        >
+      </div>
+    </footer>
+    <div class="fuzzy-overlay"></div>
+    <script src="./assets/js/scripts.js"></script>
+    <script src="/libs/gsap/gsap.min.js" defer></script>
+    <script src="/libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="/libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </body>
+</html>

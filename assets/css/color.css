@@ -1,0 +1,19 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-hard-color: #1a1a1a;
+  --gray-light-color: #959595;
+  --gray-medium-color: #999999;
+  --red-color: #c5203e;
+  --blue-color: #5856d6;
+  --purple-color: #9e34d3;
+  --scrollbar-color: #131313;
+  --card-color: #111111;
+  --button-default-color: #1d1d1d;
+  --button-hover-color: #292929;
+  --button-active-color: #393939;
+  --problem-tag-color: #ff3b30;
+  --solution-tag-color: #34c759;
+  --line-color: #434343;
+  --nda-tag-color: #353535;
+}
