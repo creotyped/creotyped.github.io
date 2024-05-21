@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'SF-Pro-Regular';
-  src: url('/assets/fonts/SF-Pro.ttf');
+  font-family: "SF-Pro-Regular";
+  src: url("/assets/fonts/SF-Pro.ttf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'SF-Pro-Medium';
-  src: url('/assets/fonts/SF-Pro.ttf');
+  font-family: "SF-Pro-Medium";
+  src: url("/assets/fonts/SF-Pro.ttf");
   font-weight: 510;
 }
 
@@ -39,12 +39,12 @@ a {
   position: relative;
   line-height: 155%;
   font-size: 16px;
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   transition: color 1.6s cubic-bezier(0, 0.73, 0.34, 1.01);
 }
 
 header a::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0px;
@@ -200,7 +200,7 @@ header {
 h1 {
   color: var(--white-color);
   /* text-align: center; */
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   font-size: 64px;
   line-height: 100%; /* 64px */
   letter-spacing: 1.28px;
@@ -211,7 +211,7 @@ h1 {
 h2 {
   color: var(--white-color);
   /* text-align: center; */
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   /* width: 900px; */
   width: 100%;
   font-size: 44px;
@@ -223,7 +223,7 @@ h2 {
 
 h3 {
   color: var(--white-color);
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -233,7 +233,7 @@ h3 {
 h6 {
   width: auto;
   color: var(--white-color);
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
@@ -241,7 +241,7 @@ h6 {
 }
 
 h5 {
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   font-size: 16px;
   font-style: normal;
   line-height: 145%; /* 29px */
@@ -251,7 +251,7 @@ h5 {
 
 sub {
   color: var(--gray-medium-color);
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   font-size: 20px;
   font-style: normal;
   line-height: 145%; /* 29px */
@@ -261,7 +261,7 @@ sub {
 
 .role_project {
   color: var(--white-color);
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   font-size: 18px;
   font-style: normal;
   line-height: 145%; /* 29px */
@@ -271,7 +271,7 @@ sub {
 
 h4 {
   color: var(--white-color);
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 20px;
   font-style: normal;
   line-height: 145%; /* 29px */
@@ -281,7 +281,7 @@ h4 {
 
 h5 {
   color: var(--white-color);
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   font-size: 36px;
   font-weight: 510;
   font-style: normal;
@@ -306,8 +306,8 @@ h5 {
 }
 
 .preview__tags span {
-  font-family: 'SF-Pro-Regular';
-  color: var(--white-color);
+  font-family: "SF-Pro-Regular";
+  color: var(--black-color);
   line-height: 145%; /* 23.2px */
   letter-spacing: 0.16px;
   font-size: 16px;
@@ -315,19 +315,19 @@ h5 {
 
 .preview__tags span:nth-child(1) {
   padding: 3px 8px 2px 8px;
-  background-color: var(--red-color);
+  background-color: var(--white-color);
   border-radius: 4px;
 }
 
 .preview__tags span:nth-child(2) {
   padding: 3px 8px 2px 8px;
-  background-color: var(--blue-color);
+  background-color: var(--white-color);
   border-radius: 4px;
 }
 
 .preview__tags span:nth-child(3) {
   padding: 3px 8px 2px 8px;
-  background-color: var(--purple-color);
+  background-color: var(--white-color);
   border-radius: 4px;
 }
 
@@ -335,7 +335,7 @@ h5 {
   margin-top: 20px;
   right: 20px;
   position: absolute;
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   color: var(--white-color);
   line-height: 145%; /* 23.2px */
   letter-spacing: 0.16px;
@@ -346,7 +346,7 @@ h5 {
 }
 
 .next-project_tag {
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   color: var(--white-color);
   line-height: 145%; /* 23.2px */
   letter-spacing: 0.16px;
@@ -368,7 +368,7 @@ h5 {
   width: 570px;
   color: var(--gray-medium-color);
   text-align: center;
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 20px;
   line-height: 130%; /* 26px */
   letter-spacing: 0.2px;
@@ -395,7 +395,7 @@ footer {
 
 footer a {
   font-size: 16px;
-  font-family: 'SF-Pro-Medium';
+  font-family: "SF-Pro-Medium";
   color: var(--gray-medium-color);
   line-height: 100%;
 }
@@ -586,7 +586,7 @@ footer a {
 
 .preview_works p {
   color: var(--white-color);
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -598,7 +598,7 @@ footer a {
   color: var(--white-color);
   width: 100%;
   max-width: 650px;
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -638,7 +638,7 @@ footer a {
   color: var(--white-color);
   width: 100%;
   max-width: 826px;
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -715,7 +715,7 @@ footer a {
   border-radius: 4px;
   background-color: var(--problem-tag-color);
   color: var(--white-color);
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -732,7 +732,7 @@ footer a {
   border-radius: 4px;
   background-color: var(--solution-tag-color);
   color: var(--white-color);
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -763,132 +763,84 @@ footer a {
 }
 
 .severstalsystem-back {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(/assets/img/works/DesignSeverstal/Preview_pageworks_severstal.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .severstalsystem-back:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(/assets/img/works/DesignSeverstal/Preview_pageworks_severstal.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .trail-back {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(/assets/img/works/Trail/preview_pageworks_trail.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .trail-back:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(/assets/img/works/Trail/preview_pageworks_trail.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .factory {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(/assets/img/works/Factory/preview_pageworks_factory.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .factory:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(/assets/img/works/Factory/preview_pageworks_factory.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cybersec {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(/assets/img/works/Cybersecurity/Preview_pageworks_cybersec.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cybersec:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(/assets/img/works/Cybersecurity/Preview_pageworks_cybersec.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .Data-Monitor {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(/assets/img/works/Data-Monitor/Preview_pageworks_Data-Monitor.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .Data-Monitor:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(/assets/img/works/Data-Monitor/Preview_pageworks_Data-Monitor.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .allforms {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(/assets/img/works/Allforms/Preview_pageworks_allforms.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .allforms:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(/assets/img/works/Allforms/Preview_pageworks_allforms.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1162,7 +1114,7 @@ footer a {
   }
 
   .preview__tags span {
-    font-family: 'SF-Pro-Regular';
+    font-family: "SF-Pro-Regular";
     color: var(--white-color);
     line-height: 145%; /* 23.2px */
     letter-spacing: 0.16px;

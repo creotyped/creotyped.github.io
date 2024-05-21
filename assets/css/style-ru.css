@@ -2,7 +2,7 @@
   width: 606px;
   color: var(--gray-medium-color);
   text-align: center;
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.2px;
@@ -13,7 +13,7 @@
 h2 {
   color: var(--white-color);
   /* text-align: center; */
-  font-family: 'SF-Pro-Regular';
+  font-family: "SF-Pro-Regular";
   width: fit-content;
   font-size: 44px;
   font-weight: 400;
@@ -47,8 +47,7 @@ h2 {
     height: 500px;
     flex: none;
     align-self: none;
-    background: url(/assets/img/img_abtme.jpg) no-repeat center / cover,
-      lightgray;
+    background: url(/assets/img/img_abtme.jpg) no-repeat center / cover, lightgray;
     border-radius: 8px;
   }
   header ul {
@@ -77,7 +76,7 @@ h2 {
   }
 
   .preview__tags span {
-    font-family: 'SF-Pro-Regular';
+    font-family: "SF-Pro-Regular";
     color: var(--white-color);
     line-height: 145%; /* 23.2px */
     letter-spacing: 0.16px;
